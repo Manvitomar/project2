@@ -1,0 +1,32 @@
+*{
+    color: white;
+    background-color: rgb(165, 164, 164);
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playgame{
+    height: 580px;
+    width: 580px;
+    /* border: 2px dashed black; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.playgame img{
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+}
+#image{
+    font-size: 29px;
+}    
+
